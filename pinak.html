@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator ver:- 3.1</title>
+    <script src="./pinak.js"></script>
+    <link rel="stylesheet" href="./pinak.css">
+</head>
+<body>
+    <h1>Calculator ver:- 3.1</h1>
+     <div class="container">
+         <div class="screens">
+         <div id="screen1">0</div>
+         <div id="screen">0</div>
+        </div>
+         <table>
+             <tr>
+                 <td onclick="clicks('1')">1</td>
+                 <td onclick="clicks('2')">2</td>
+                 <td onclick="clicks('3')">3</td>
+                 <td onclick="click1(' + ')">+</td>
+             </tr>
+             <tr>
+                <td onclick="clicks('4')">4</td>
+                <td onclick="clicks('5')">5</td>
+                <td onclick="clicks('6')"> 6</td>
+                <td onclick="click1(' - ')">-</td>
+            </tr>
+            <tr>
+                <td onclick="clicks('7')">7</td>
+                <td onclick="clicks('8')">8</td>
+                <td onclick="clicks('9')">9</td>
+                <td onclick="click1(' / ')">/</td>
+            </tr>
+            <tr>
+                <td onclick="result()">=</td>
+                <td onclick="clicks('0')">0</td>
+                <td onclick="click1(' * ')">*</td>
+                <td onclick="AC()">AC</td>
+            </tr>
+            <tr>
+                <td onclick="clicks('(')">(</td>
+                <td onclick="clicks(')')">)</td>
+                <td onclick="clicks('.')">.</td>
+                <td onclick="deleate()">Delete</td>
+            </tr>
+         </table>
+     </div>
+     
+     
+</body>
+</html>
